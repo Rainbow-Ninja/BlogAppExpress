@@ -12,4 +12,4 @@ const BlogSchema = new Schema({
     }
 })
 
-modeule.exports = BlogSchema;
+module.exports = BlogSchema;

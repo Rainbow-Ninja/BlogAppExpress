@@ -1,1 +1,7 @@
 <h1>Blog Index</h1>
+
+{{#each blog}}
+    <h2>{{this.title}}</h2>
+    <h3>{{this.content}}</h3>
+    <button><a href="/blog/{{this._id}}">Show</a></button>
+{{/each}}
